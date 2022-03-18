@@ -1,0 +1,128 @@
+body {
+    background: rgb(121, 36, 92);
+}
+
+h1 {
+    border: 2px solid rgb(12, 12, 12);
+    box-shadow: 4px 8px 10px rgb(228, 138, 20);
+    padding: 10px 15px;
+    margin: bottom 10px;
+    font: italic bolder 24px/125% times, serif;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    background-color: rgb(214, 156, 47);
+    color: rgb(12, 12, 12);
+}
+
+.nav {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    box-shadow: 4px 8px 10px rgb(228, 138, 20);
+    /* use thse commands to make individual boxes stick at the top of the document when scrolling down the page */
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* menu items */
+/* instructions for navbar html */
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+ul li {
+    display: inline-block;
+    padding-right: 14px;
+    background-color: rgb(24, 59, 116);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* gets rid of underline in link */
+
+ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+ul li a:hover {
+    color: rgb(24, 59, 116);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul li:hover {
+    background-color: rgb(214, 156, 47);
+}
+
+section {
+    border: 2px solid rgb(12, 12, 12);
+    height: 3px;
+    /* float: left; */
+    clear: none;
+    /* width: %; */
+    margin-bottom: 10px;
+    padding: 10px;
+    background: rgb(121, 36, 92) url("/img/image_2.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: expanded;
+
+}
+
+.box {
+    height: 280px;
+    width: 200px;
+    border: 2px solid rgb(12, 12, 12);
+    display: inline-block;
+    box-shadow: 4px 8px 10px rgb(228, 138, 20);
+    margin: 31px;
+    margin-top: 50px;
+}
+
+.image1 {
+    background: transparent url("/img/p1.jpg") no-repeat center;
+}
+
+.image2 {
+    background: transparent url("/img/p6.jpg") no-repeat center;
+}
+
+.image3 {
+    background: transparent url("/img/p2.jpg") no-repeat center;
+}
+
+article {
+    border: 2px solid rgb(12, 12, 12);
+    height: 500px;
+    float: none;
+    clear: left;
+    width: 59%;
+    /* 1st px top, 2nd px no change, 3rd px no change, 4th px left  */
+    /* margin: 75px 2px 2px 75px; */
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+aside {
+    border: 2px solid rgb(12, 12, 12);
+    height: 1033px;
+    float: right;
+    clear: none;
+    width: 38%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: rgb(214, 156, 47) url("/img/image_2.jpg") no-repeat center;
+}
+
+footer {
+    border: 2px solid rgb(12, 12, 12);
+    float: both;
+    clear: both;
+    padding: 10px;
+    text-shadow: 2px rgb(228, 138, 20);
+
+}
